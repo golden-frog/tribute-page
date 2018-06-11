@@ -36,86 +36,24 @@ img {
 }
 
 p {
-  margin: 30px auto 30px auto;
-}
-
-.subtitle {
-  margin-top:60px;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 5px;
+  margin: 30px auto;
 }
 
 .quote {
-  margin-top:5px;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 50px;
+  margin: 5px 24px 50px 24px;
   font-size: 1.4em;
   font-style: italic;
 }
 
-#title {
-  margin-top: 30px;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 5px;
-
-}
-
-#wrapper {
-  margin: auto;
+.subtitle {
+  margin: 60px 24px 5px 24px;
 }
 
 #description {
-  margin-top:5px;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 50px;
+  margin:5px 24px 50px 24px;
   font-size: 1.4em;
   font-style: italic;
 }
-
-#img-caption {
-  width: 90%;
-  margin: 5px auto 0px auto;
-  text-align: center;
-}
-
-#tribute-info {
-  width: 90%;
-  margin: auto;
-}
-
-#tribute-info p {
-  font-size: 1.1em;
-}
-
-#list {
-  width: 90%;
-  margin: auto;
-  padding-left: 30px;
-}
-
-#list ul {
-  font-size: 1.1em;
-}
-
-#readmore {
-  margin-top: 50px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 50px;
-  text-align: left;
-  font-size: 1.2em;
-  font-style: italic;
-}
-
-#footer {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 
 #footer p {
   margin-top: 10px;
@@ -124,12 +62,47 @@ p {
   text-align: right;
 }
 
+#img-caption {
+  width: 90%;
+  margin: 5px auto 0px auto;
+  text-align: center;
+}
+
+#list {
+  width: 90%;
+  margin: auto;
+  padding-left: 30px;
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
 #punta {
     height: 10px;
     width: 10px;
     background-color: #EC1F43;
     border-radius: 50%;
     display: inline-block;
+}
+
+#readmore {
+  margin: 50px 24px 50px 24px;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#title {
+  margin: 30px 24px 5px 24px;
+}
+
+#tribute-info {
+  width: 90%;
+  margin: auto;
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+#wrapper {
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,11 +115,6 @@ p {
 
   .subtitle {
     margin-left: auto;
-  }
-
-  #title {
-    width: 700px;
-    margin-left: auto;
     margin-right: auto;
   }
 
@@ -155,19 +123,24 @@ p {
     margin-right: auto;
   }
 
+  #footer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #readmore {
     margin-left: 0px;
-    text-align: left;
-    font-size: 1.2em;
+  }
+
+  #title {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #wrapper {
     width: 700px;
   }
 
-  #footer {
-    width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
