@@ -4,8 +4,20 @@
   padding: 0;
 }
 
-body {
+a:link, a:visited {
+  color: #000;
+}
 
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 hr.inset {
@@ -24,11 +36,11 @@ img {
 }
 
 p {
-  margin: 30px auto;
+  margin: 30px auto 30px auto;
 }
 
 .subtitle {
-  margin-top:50px;
+  margin-top:60px;
   margin-right: 24px;
   margin-left: 24px;
   margin-bottom: 5px;
@@ -48,6 +60,7 @@ p {
   margin-right: 24px;
   margin-left: 24px;
   margin-bottom: 5px;
+
 }
 
 #wrapper {
@@ -84,15 +97,29 @@ p {
   padding-left: 30px;
 }
 
+#list ul {
+  font-size: 1.1em;
+}
+
 #readmore {
+  margin-top: 50px;
   margin-left: 24px;
   margin-bottom: 50px;
   text-align: left;
   font-size: 1.2em;
+  font-style: italic;
 }
 
 #footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+#footer p {
+  margin-top: 10px;
   margin-right: 24px;
+  margin-bottom: 40px;
   text-align: right;
 }
 
