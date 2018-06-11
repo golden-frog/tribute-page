@@ -4,16 +4,19 @@
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-  background-color: rgba(45, 45, 45, 0.05);
-  padding-top: 30px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgba(45, 45, 45, 0.2);
+body {
+
+}
+
+hr.inset {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 img {
-  width: 249px;
+  width: 700px;
   max-width: 100%;
   display: block;
   height: auto;
@@ -24,12 +27,73 @@ p {
   margin: 30px auto;
 }
 
-#footer {
-  text-align: center;
+.subtitle {
+  margin-top:50px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 5px;
+}
+
+.quote {
+  margin-top:5px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 50px;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+#title {
+  margin-top: 30px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 5px;
+}
+
+#wrapper {
+  margin: auto;
+}
+
+#description {
+  margin-top:5px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 50px;
+  font-size: 1.4em;
+  font-style: italic;
 }
 
 #img-caption {
+  width: 90%;
+  margin: 5px auto 0px auto;
   text-align: center;
+}
+
+#tribute-info {
+  width: 90%;
+  margin: auto;
+}
+
+#tribute-info p {
+  font-size: 1.1em;
+}
+
+#list {
+  width: 90%;
+  margin: auto;
+  padding-left: 30px;
+}
+
+#readmore {
+  margin-left: 24px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+#footer {
+  margin-right: 24px;
+  text-align: right;
 }
 
 #punta {
@@ -40,51 +104,42 @@ p {
     display: inline-block;
 }
 
-#quote {
-  font-size: 1.3em;
-  font-style: italic;
-  text-align: center;
-  background-color: rgba(45, 45, 45, 0.1);
-  padding: 10px;
-  margin: 20px auto;
-}
-
-#readmore {
-  text-align: center;
-}
-
-#subtitle {
-  font-size: 1.3em;
-  font-style: italic;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 30px;
-}
-
-#tribute-info {
-  width: 90%;
-  margin: auto;
-}
-
-#works {
-  background-color: rgba(45, 45, 45, 0.1);
-  padding: 10px 10px 40px 40px;
-}
-
-#works-title {
-  font-weight: bold;
-}
-
 @media only screen and (min-width: 768px) {
-  #tribute-info {
-    width: 70%;
-    margin: auto;
-  }
-}
 
-@media only screen and (min-width: 1024px) {
-  #tribute-info {
-    width: 50%;
-    margin: auto;
+  .quote {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subtitle {
+    margin-left: auto;
+  }
+
+  #title {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #readmore {
+    margin-left: 0px;
+    text-align: left;
+    font-size: 1.2em;
+  }
+
+  #wrapper {
+    width: 700px;
+  }
+
+  #footer {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
